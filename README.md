@@ -1,2 +1,2 @@
 # bioSite
-Pattern Library for Valerie Rose Coaching# bioSite
+Pattern Library for Valerie Rose Vacari
