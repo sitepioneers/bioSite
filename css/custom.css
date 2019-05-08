@@ -130,7 +130,7 @@ li.sg-size {
 
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font: 100%/1.25 'Raleway', "Helvetica", "Arial", sans-serif;
     margin-bottom: 25px;
 }
@@ -155,6 +155,10 @@ h2 a.patternLink {
     font-size: 36px;
     line-height: 45px;
     color: #B8124F !important;
+}
+
+.article h2 {
+    margin-bottom: 10px;
 }
 
 a,
@@ -191,6 +195,7 @@ h5 {
     font-size: 16px;
     line-height: 21px;
     font-weight: 700;
+    margin: 0;
 }
 
 h6 {
