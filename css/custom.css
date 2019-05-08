@@ -741,6 +741,10 @@ ul.list {
     left: 11px;
 }
 
+.return {
+    margin-bottom: 25px;
+}
+
 /**
  * Section block
  */
