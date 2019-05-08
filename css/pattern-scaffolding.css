@@ -1,0 +1,106 @@
+/**
+ * This stylesheet is for styles you want to include only when displaying demo
+ * styles for grids, animations, color swatches, etc.
+ * These styles will not be your production CSS.
+ */
+
+#sg-patterns {
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  max-width: 100%;
+  padding: 0 0.5em;
+}
+
+.demo-animate {
+  background: #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sg-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.sg-colors li {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  padding: 0.3em;
+  margin: 0 0.5em 0.5em 0;
+  min-width: 5em;
+  max-width: 14em;
+  border-radius: 8px;
+}
+
+.sg-swatch {
+  border-radius: 8px;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 0.3em;
+  min-width: 200px;
+  min-height: 100%;
+  padding: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-box-shadow: 1px 1px 5px -1px rgba(122,122,122,0.7);
+  -moz-box-shadow: 1px 1px 5px -1px rgba(122,122,122,0.7);
+  box-shadow: 1px 1px 5px -1px rgba(122,122,122,0.7);
+}
+
+.sg-pattern-extra-code {
+  font-size: .75em;
+  line-height: 1.5em;
+  background-color: #f1f1f1;
+  padding: 25px;
+  border: #dfdfdf;
+  margin-bottom: 1.5em;
+}
+
+.sg-swatch.color-gray {
+    color: #777777;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.gray {
+  color: #787878 !important;
+}
+
+.green {
+  color: #569E44
+}
+
+.sg-label {
+  font-size: 90%;
+  line-height: 1;
+}
+
+#atoms-logo-reversed .sg-pattern-example {
+	background: #444444;
+	display: inline-block;
+}
+
+#molecules-logo-footer-link .sg-pattern-example {
+	background: #444444;
+	display: inline-block;
+}
+
+.sg-tabs-panel {
+    min-height: 250px !important;
+}
+
+.sg-pattern-example {
+    padding-left: 25px;
+    padding-right: 25px;
+}

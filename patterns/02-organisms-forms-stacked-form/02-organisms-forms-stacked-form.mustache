@@ -1,0 +1,17 @@
+<form class="c-form c-form--stacked" method="post" action="{{ company.url }}{{ link.pages-dashboard }}">
+  {{# formTitle }}
+    <h2>{{ formTitle }}</h2>
+    {{/ formTitle }}
+    {{# fields }}
+      {{> molecules-field }}
+      {{/ fields }}
+
+      {{# textarea }}
+        {{> molecules-textarea }}
+        {{/ textarea }}
+
+        <div class="c-form__actions">
+          {{> atoms-button }}
+        </div>
+</form>
+<!--end c-form--stacked-->
