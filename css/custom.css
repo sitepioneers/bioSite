@@ -130,7 +130,7 @@ li.sg-size {
 
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font: 100%/1.25 'Raleway', "Helvetica", "Arial", sans-serif;
     margin-bottom: 25px;
 }
@@ -174,9 +174,9 @@ h3, .c-block-hero__headline h3 {
 
 h4 {
     font-weight: 700;
-    color: #B8124F;
     font-size: 16px;
     line-height: 21px;
+    margin: 0;
     margin-top: 25px;
 }
 
