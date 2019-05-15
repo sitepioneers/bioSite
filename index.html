@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="en">
 <html id="patternlab-html">
   <head id="patternlab-head">
     
@@ -14,11 +14,7 @@
     
     <!-- handle the viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- load the pattern lab css -->
-    <link rel="stylesheet" href="styleguide/css/styleguide.min.css" media="all" />
-    <link rel="stylesheet" href="styleguide/css/prism-typeahead.min.css" media="all" />
-    
+
   </head>
   <body id="patternlab-body">
     
@@ -36,7 +32,7 @@
     <div id="sg-vp-wrap">
       <div id="sg-cover"></div>
       <div id="sg-gen-container">
-        <iframe id="sg-viewport" name="sg-viewport" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+        <iframe id="sg-viewport" title="Menu" name="sg-viewport" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
         <div id="sg-rightpull-container">
           <div id="sg-rightpull"></div>
         </div>
@@ -89,7 +85,8 @@
         <form id="sg-form">
           <label for="sg-size-px">Size</label>
           <input type="text" class="sg-input sg-size-px" id="sg-size-px" value="---">px /
-          <input type="text" class="sg-input sg-size-em" value="---">em
+          <label for="sg-size-em">Em</label>
+          <input type="text" class="sg-input sg-size-em" id="sg-size-em" value="---">
         </form><!--end #sg-form-->
       </div><!--end #sg-current-size-->
       <ul class="sg-size-options">
@@ -129,9 +126,6 @@
           {{^ ishControlsHide.views-new }}
             <li><a href="#" target="_blank" id="sg-raw">Open in new window</a></li>
           {{/ ishControlsHide.views-new }}
-          {{^ ishControlsHide.tools-docs }}
-            <li><a href="http://patternlab.io/docs/" target="_blank">Pattern Lab Docs</a></li>
-          {{/ ishControlsHide.tools-docs }}
           {{^ ishControlsHide.find }}
             <li id="sg-find"><input class="typeahead" id="typeahead" type="text" placeholder="Find pattern" /></li>
           {{/ ishControlsHide.find }}
@@ -274,6 +268,9 @@
     
     <!-- load the pattern lab viewer js -->
     <script src="styleguide/js/patternlab-viewer.min.js"></script>
-    
+
+        <!-- load the pattern lab css -->
+        <link rel="stylesheet" href="styleguide/css/styleguide.min.css" media="all" />
+        <link rel="stylesheet" href="styleguide/css/prism-typeahead.min.css" media="all" />
   </body>
 </html>

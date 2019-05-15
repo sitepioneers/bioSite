@@ -71,7 +71,7 @@ body {
 }
 
 .sg-header a {
-    font-size: 90%;
+    font-size: 13px !important;
     color: grey;
     text-transform: capitalize;
     line-height: 1;
@@ -331,6 +331,13 @@ a:hover, .btn-link:hover {
     text-decoration: none;
 }
 
+input,
+textarea,
+select,
+button {
+    font-size: 16px !important;
+}
+
 .form-control,
 input,
 select,
@@ -343,7 +350,7 @@ textarea {
     padding: .45em;
     background: #f9f9f9;
     color: #787878;
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 .alert-success {
@@ -397,7 +404,7 @@ textarea {
 
 li.nav-item a.nav-link {
     color: #B8124F !important;
-    font-size: 13px;
+    font-size: 13px !important;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -512,18 +519,13 @@ li.nav-item a.nav-link:hover {
 
 blockquote {
     display: block;
-    background: #f1f1f1;
-    padding: 15px 15px 15px 50px;
+    background: #f9f9f9;
+    padding: 15px 15px 15px 55px;
     margin: 0 0 25px;
     position: relative;
 
-    /* Box Shadow */
-    -moz-box-shadow: 2px 2px 15px #ccc;
-    -webkit-box-shadow: 2px 2px 15px #ccc;
-    box-shadow: 2px 2px 15px #ccc;
-
     /* Borders */
-    border-left-style: solid;
+    border-color: #dfdfdf;
     border-left-width: 15px;
     border-right-style: solid;
     border-right-width: 2px;
@@ -532,12 +534,12 @@ blockquote {
 
 blockquote::before {
     content: "\201C";
-    /*Unicode for Left Double Quote*/
 
     /*Font*/
     font-family: Georgia, serif;
     font-size: 60px;
     font-weight: bold;
+    color: #dfdfdf;
 
     /*Positioning*/
     position: absolute;
@@ -548,6 +550,12 @@ blockquote::before {
 blockquote::after {
     /*Reset to make sure*/
     content: "";
+}
+
+blockquote .c-quote__cite {
+    text-align: right;
+    font-size: 13px;
+    display: block;
 }
 
 blockquote a {
@@ -666,7 +674,7 @@ h2.c-block-tout__headline {
 }
 
 .copyright {
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
 }
 
